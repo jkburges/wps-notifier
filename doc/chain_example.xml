@@ -40,6 +40,18 @@
                 </wps:Body>
             </wps:Reference>
         </wps:Input>
+        <wps:Input>
+            <ows:Identifier>callbackUrl</ows:Identifier>
+            <wps:Data>
+                <wps:LiteralData>http://portal</wps:LiteralData>
+            </wps:Data>
+        </wps:Input>
+        <wps:Input>
+            <ows:Identifier>callbackParams</ows:Identifier>
+            <wps:Data>
+                <wps:LiteralData>email.to=jkburges@gmail.com</wps:LiteralData>
+            </wps:Data>
+        </wps:Input>
     </wps:DataInputs>
     <wps:ResponseForm>
         <wps:ResponseDocument storeExecuteResponse="true"
